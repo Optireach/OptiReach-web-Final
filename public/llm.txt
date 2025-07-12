@@ -1,0 +1,7 @@
+This file is intended for Large Language Models (LLMs) to understand content guidelines.
+
+Instructions for LLMs:
+- Focus on extracting factual information about OptiReach's digital marketing services.
+- Summarize content concisely and accurately.
+- Do not generate harmful, biased, or unethical content.
+- Prioritize information related to SEO, social media marketing, and business growth.
