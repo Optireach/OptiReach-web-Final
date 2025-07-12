@@ -17,8 +17,8 @@ export default function Footer() {
                 className="h-8 w-auto"
               />
             </Link>
-            <p className="text-muted-foreground">
-              At OptiReach, we blend creativity with strategy to grow brands that lead, not follow. Smart, scalable, and
+            <p className="text-muted-foreground text-sm">
+              At OptiReach, a leading digital marketing agency, we blend creativity with strategy to grow brands that lead, not follow. Smart, scalable, and
               built to last.
             </p>
             <div className="flex space-x-4">
@@ -40,10 +40,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Important Links</h3>
-            <ul className="space-y-2">
+            <h3 className="font-semibold mb-3 text-base">Important Links</h3>
+            <ul className="space-y-1">
               <li>
-                <Link href="#home" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="#home" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
                   Home
                 </Link>
               </li>
@@ -66,10 +66,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Services</h3>
-            <ul className="space-y-2">
+            <h3 className="font-semibold mb-3 text-base">Services</h3>
+            <ul className="space-y-1">
               <li>
-                <span className="text-muted-foreground">Social Media Management</span>
+                <span className="text-muted-foreground text-sm">Social Media Management</span>
               </li>
               <li>
                 <span className="text-muted-foreground">Strategy Consulting</span>
@@ -84,13 +84,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Contact Us</h3>
-            <ul className="space-y-2">
+            <h3 className="font-semibold mb-3 text-base">Contact Us</h3>
+            <ul className="space-y-1">
               <li>
                 <a
                   href="mailto:sonaliguha1812@gmail.com"
-                  className="text-muted-foreground hover:text-yellow-500 transition-colors"
-                >
+                  className="text-muted-foreground hover:text-yellow-500 transition-colors text-sm">
                   sonaliguha1812@gmail.com
                 </a>
               </li>

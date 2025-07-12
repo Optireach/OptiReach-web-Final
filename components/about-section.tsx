@@ -11,25 +11,25 @@ export default function AboutSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-                This Is Where Strategy Meets <span className="text-yellow-500 animate-pulse">Real Growth</span>
+                This Is Where Digital Marketing Strategy Meets <span className="text-yellow-500 animate-pulse">Real Business Growth</span>
               </h2>
-              <p className="text-xl text-muted-foreground">
-                You don't need more content. You need a strategy that actually works.
+              <p className="text-lg text-muted-foreground">
+                You don't need more content. You need a digital marketing strategy that actually works.
               </p>
             </div>
 
             <div className="space-y-6">
-              <p className="text-lg leading-relaxed">
-                At OptiReach, we help ambitious brands grow through 1:1 strategy consulting, AI-powered insights, and
+              <p className="text-base leading-relaxed">
+                At OptiReach, we help ambitious brands in Indore and beyond grow through 1:1 digital marketing strategy consulting, AI-powered insights, and
                 scroll-stopping organic content that drives action, not just likes.
               </p>
-              <p className="text-lg leading-relaxed">
-                Every plan we create is tailored to your goals, backed by data, and designed to build real traction
-                across platforms. Whether you're stuck on what to post, how to scale, or why you're not converting—we
+              <p className="text-base leading-relaxed">
+                Every digital marketing plan we create is tailored to your goals, backed by data, and designed to build real traction
+                across platforms. Whether you're stuck on what to post, how to scale your online presence, or why you're not converting—we
                 fix that.
               </p>
-              <p className="text-lg leading-relaxed font-semibold">
-                This isn't a plug-and-play service. It's a partnership built for impact, clarity, and no-regret results.
+              <p className="text-base leading-relaxed font-semibold">
+                This isn't a plug-and-play service. It's a partnership built for impact, clarity, and no-regret results in digital marketing.
               </p>
             </div>
 
@@ -44,8 +44,8 @@ export default function AboutSection() {
                   key={index}
                   className="flex items-center space-x-3 hover:translate-x-2 transition-transform duration-300"
                 >
-                  <CheckCircle className="h-5 w-5 text-yellow-500 flex-shrink-0 animate-pulse" />
-                  <span className="text-lg">{item}</span>
+                  <CheckCircle className="h-4 w-4 text-yellow-500 flex-shrink-0 animate-pulse" />
+                  <span className="text-base">{item}</span>
                 </div>
               ))}
             </div>
@@ -67,11 +67,11 @@ export default function AboutSection() {
               <CardContent className="p-0">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 rounded-lg bg-yellow-500/20 flex items-center justify-center flex-shrink-0 hover:rotate-12 transition-transform duration-300">
-                    <Target className="h-6 w-6 text-yellow-500" />
+                    <Target className="h-5 w-5 text-yellow-500" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">Strategic Focus</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="text-lg font-semibold mb-1">Strategic Focus</h3>
+                    <p className="text-muted-foreground text-sm">
                       We blend creativity with strategy to grow brands that lead, not follow. Smart, scalable, and built
                       to last.
                     </p>
@@ -84,11 +84,11 @@ export default function AboutSection() {
               <CardContent className="p-0">
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 rounded-lg bg-blue-500/20 flex items-center justify-center flex-shrink-0 hover:rotate-12 transition-transform duration-300">
-                    <Zap className="h-6 w-6 text-blue-500" />
+                    <Zap className="h-5 w-5 text-blue-500" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold mb-2">AI-Powered Results</h3>
-                    <p className="text-muted-foreground">
+                    <h3 className="text-lg font-semibold mb-1">AI-Powered Results</h3>
+                    <p className="text-muted-foreground text-sm">
                       Leveraging cutting-edge AI tools and insights to optimize your content strategy and maximize
                       engagement.
                     </p>

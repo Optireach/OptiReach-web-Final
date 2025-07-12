@@ -12,14 +12,13 @@ export default function HeroSection() {
             <div className="space-y-4">
               <div className="inline-flex items-center rounded-full border px-3 py-1 text-sm animate-bounce">
                 <Lightbulb className="mr-2 h-4 w-4 text-yellow-500" />
-                Social Media Agency
+                Digital Marketing Agency in Indore
               </div>
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
-                Is your brand's voice as <span className="text-yellow-500 animate-pulse">sharp</span> as your image?
+              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
+                Is your brand's voice as <span className="text-yellow-500 animate-pulse">sharp</span> as your image? Unlock Growth with Top Digital Marketing Services.
               </h1>
-              <p className="text-xl text-muted-foreground max-w-2xl">
-                If not, you're missing the impact your brand deserves. Let's align your voice with your vision and turn
-                brand presence into powerful results.
+              <p className="text-lg text-muted-foreground max-w-2xl">
+                If not, you're missing the impact your brand deserves. OptiReach, a leading digital marketing agency in Indore, helps businesses like yours turn brand presence into powerful results with tailored digital marketing services.
               </p>
             </div>
 
@@ -47,23 +46,23 @@ export default function HeroSection() {
             <div className="grid grid-cols-3 gap-4 pt-8">
               <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <CardContent className="p-4 text-center">
-                  <TrendingUp className="h-8 w-8 mx-auto mb-2 text-yellow-500 animate-bounce" />
-                  <div className="text-2xl font-bold">500+</div>
-                  <div className="text-sm text-muted-foreground">Brands Grown</div>
+                  <TrendingUp className="h-6 w-6 mx-auto mb-1 text-yellow-500 animate-bounce" />
+                  <div className="text-xl font-bold">500+</div>
+                  <div className="text-xs text-muted-foreground">Brands Grown</div>
                 </CardContent>
               </Card>
               <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <CardContent className="p-4 text-center">
-                  <Users className="h-8 w-8 mx-auto mb-2 text-yellow-500 animate-bounce" />
-                  <div className="text-2xl font-bold">98%</div>
-                  <div className="text-sm text-muted-foreground">Client Satisfaction</div>
+                  <Users className="h-6 w-6 mx-auto mb-1 text-yellow-500 animate-bounce" />
+                  <div className="text-xl font-bold">98%</div>
+                  <div className="text-xs text-muted-foreground">Client Satisfaction</div>
                 </CardContent>
               </Card>
               <Card className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                 <CardContent className="p-4 text-center">
-                  <Lightbulb className="h-8 w-8 mx-auto mb-2 text-yellow-500 animate-bounce" />
-                  <div className="text-2xl font-bold">3x</div>
-                  <div className="text-sm text-muted-foreground">Average Growth</div>
+                  <Lightbulb className="h-6 w-6 mx-auto mb-1 text-yellow-500 animate-bounce" />
+                  <div className="text-xl font-bold">3x</div>
+                  <div className="text-xs text-muted-foreground">Average Growth</div>
                 </CardContent>
               </Card>
             </div>

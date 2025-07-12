@@ -10,43 +10,43 @@ const services = [
     icon: MessageSquare,
     title: "Social Media Management",
     description:
-      "Complete social media management across all platforms with consistent, engaging content that builds your community.",
+      "Complete social media management across all platforms with consistent, engaging content that builds your community and boosts online presence.",
   },
   {
     icon: BarChart3,
-    title: "Strategies",
+    title: "Digital Marketing Strategies",
     description:
-      "Data-driven strategies tailored to your brand goals, audience insights, and market positioning for maximum impact.",
+      "Data-driven digital marketing strategies tailored to your brand goals, audience insights, and market positioning for maximum impact and ROI.",
   },
   {
     icon: Megaphone,
-    title: "Advertising",
+    title: "Paid Advertising Campaigns",
     description:
-      "Targeted advertising campaigns that convert. From Facebook to LinkedIn, we optimize every dollar for maximum ROI.",
+      "Targeted paid advertising campaigns (Google Ads, Social Media Ads) that convert. We optimize every dollar for maximum ROI and lead generation.",
   },
   {
     icon: MessageSquare,
-    title: "Consultation",
+    title: "1:1 Digital Marketing Consultation",
     description:
-      "1:1 strategy sessions to unlock clarity, direction, and results. Personalized guidance for accelerated growth.",
+      "Personalized 1:1 digital marketing strategy sessions to unlock clarity, direction, and results. Expert guidance for accelerated business growth.",
   },
   {
     icon: PenTool,
-    title: "Content Creation",
+    title: "SEO-Optimized Content Creation",
     description:
-      "Scroll-stopping content that drives action, not just likes. Every piece crafted to align with your brand voice.",
+      "Scroll-stopping, SEO-optimized content that drives action, not just likes. Every piece crafted to align with your brand voice and search engine visibility.",
   },
   {
     icon: Palette,
-    title: "Graphic Designing",
+    title: "Brand-Centric Graphic Designing",
     description:
-      "Visual storytelling that captures attention and communicates your brand message with stunning, professional designs.",
+      "Visual storytelling that captures attention and communicates your brand message with stunning, professional designs for all digital platforms.",
   },
   {
     icon: Globe,
-    title: "Website Designing",
+    title: "High-Converting Website Designing",
     description:
-      "Modern, responsive websites that convert visitors into customers. Built for performance and user experience.",
+      "Modern, responsive websites that convert visitors into customers. Built for performance, user experience, and search engine ranking.",
   },
 ]
 
@@ -72,7 +72,7 @@ export default function ServicesSection() {
       <div className="container px-4 mx-auto">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">What We Do</h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Comprehensive digital marketing services designed to elevate your brand and drive measurable results across
             all platforms.
           </p>
@@ -93,14 +93,14 @@ export default function ServicesSection() {
               >
                 <CardHeader>
                   <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-yellow-500/20 to-orange-500/20 flex items-center justify-center mb-4 group-hover:from-yellow-500/30 group-hover:to-orange-500/30 transition-all duration-300 group-hover:rotate-6">
-                    <service.icon className="h-8 w-8 text-yellow-500 group-hover:scale-110 transition-transform duration-300" />
+                    <service.icon className="h-6 w-6 text-yellow-500 group-hover:scale-110 transition-transform duration-300" />
                   </div>
-                  <CardTitle className="text-xl group-hover:text-yellow-500 transition-colors duration-300">
+                  <CardTitle className="text-lg group-hover:text-yellow-500 transition-colors duration-300">
                     {service.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-base leading-relaxed group-hover:text-foreground transition-colors duration-300">
+                  <CardDescription className="text-sm leading-relaxed group-hover:text-foreground transition-colors duration-300">
                     {service.description}
                   </CardDescription>
                 </CardContent>
